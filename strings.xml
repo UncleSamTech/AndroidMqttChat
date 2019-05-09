@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SeamfixChat</string>
+    <string name="mqtt_topic_hint">Add MQTT Topic</string>
+    <string name="mqtt_message_hint">Start Typing...</string>
+    <string name="mqtt_send_hint">Send</string>
+    <string name="tv_topic">MQTT TOPIC</string>
+    <string name="tv_message">Message</string>
+    <string name="tv_view_message">View Sent Message</string>
+    <string name="msg_menu">Disconnect</string>
+    <string name="msg_connect">Connect</string>
+    <string name="msg_clear_hint">Clear Message</string>
+    <string name ="msg_set_time_btn">Set Time</string>
+    <string name ="msg_edt_time_hint">Time in Milliseconds</string>
+    <string name="msg_hint_topic">Enter Topic</string>
+    <string name = "msg_topic_frag_header">Set Up Topic</string>
+    <string name = "msg_set_topic">Activate Session Topic</string>
+    <string name="msg_hint_incomming">Incomming Message</string>
+    <string  name = "msg_time_read">Countdown</string>
+    <string  name = "msg_label_frd1">Chat 1</string>
+    <string  name = "msg_label_frd2">Chat 2</string>
+    <string  name = "msg_label_view_list">View Messages</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
