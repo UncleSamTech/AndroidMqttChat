@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--edittext for accepting the MQQT topic-->
+    <EditText
+        android:id="@+id/edt_mqqt_topic"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_fab_margin"
+        android:hint="@string/mqtt_topic_hint"
+        android:inputType="text"
+        android:autofillHints="" tools:targetApi="o" />
+
+
+
+    <!--edittext for accepting the client message-->
+    <EditText
+        android:id="@+id/edt_message"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_fab_margin"
+        android:hint="@string/mqtt_message_hint"
+        android:inputType="text"
+        android:autofillHints="" tools:targetApi="o"/>
+
+    <!--button for sending the client message-->
+
+    <!--edittext for accepting the MQQT topic-->
+    <EditText
+        android:id="@+id/edt_time"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_fab_margin"
+        android:hint="@string/msg_edt_time_hint"
+        android:inputType="number"
+        android:autofillHints="" tools:targetApi="o" />
+
+
+
+</LinearLayout>
